@@ -1,0 +1,217 @@
+
+body{
+
+    height : 100vh;
+    align-items : center;
+    justify-content : center;
+    display : flex;
+    flex-direction: column;
+    background-color : pink;
+    }
+   
+
+
+
+
+#main{
+    background : var(--primary-color);
+    height : 355px;
+    width : 700px; 
+    border-radius : 10px;
+    position : relative;
+    box-shadow : -20px 20px 40px                           
+    rgba(0,0,0,0.3);
+    box-sizing : border-box;}
+ 
+ 
+ 
+
+.mai{
+    content : " ";
+    height : 100px;
+    width : 80px;
+    position : absolute;
+    background-color : red;
+    top : 0px;
+    left : 0px;
+    border-bottom-right-radius : 100px;   }
+
+
+       
+
+    
+
+
+
+      #slide{
+        height: 355px;
+        width: 80px;
+        background-color: red;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        box-sizing: border-box;
+        align-items : center;
+        justify-content : center; }
+
+
+
+
+
+.pic img {
+    
+    width: 80px;
+    border-radius: 50px;
+    background-size: cover;
+    height: 80px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;}
+
+
+
+
+.profile{
+    position: absolute;
+    top: 0px;
+    margin-left: 100px;   }
+
+
+
+#timeShow{
+
+    position: absolute;
+    top: 80px;
+    color : var(--five-color);
+    }
+
+
+
+span{
+    color : var( --third-color);
+    font-size : 20px;}
+
+
+
+
+.discrip{
+
+     margin-left: 10px;}
+
+
+
+
+p{
+    color : var(--secondary-color);
+    width: 600px;
+    font-size : 20px;
+    text-align : justify;
+    line-height : 25px;
+    font-weight : bold;
+    font-style : italic;
+    font-family: 'Gemunu Libre',       
+    sans-serif;
+
+
+    }
+
+
+
+.profile h2{
+   color : var(--five-color);
+   background-color : var(--four-color);
+   border-radius : 5px;}
+
+#number{
+    color : yellow;
+    
+}
+
+::selection{
+    background-color : red;
+    color : white;
+    
+}
+
+#icon{
+   width : 40px;    
+}
+
+
+    :root{
+        --primary-color : black;
+        --secondary-color: white;
+        --third-color: white;
+        --four-color : red;
+        --five-color : white;
+        --six-color : red;
+    }
+    
+    
+   .dark-theam{
+       
+        --primary-color : white;
+        --secondary-color: black;
+        --third-color : blue;
+        --four-color : aqua;
+        --five-color : black;
+        --six-color : white;
+   }
+    .song{
+        margin-left: 417px;
+        
+        margin-top : 27px;
+        
+    }
+
+    audio{
+    height: 20px;
+    width: 200px;
+    }
+    
+    
+   h3{
+   width: 600px;
+   text-indent: 20px;
+   color: var(--five-color);
+   font-style: italic;
+
+   }
+
+
+
+.photo{
+    height : 400px;
+    width : 500px;
+    margin-bottom : 200px;
+    
+    
+    
+}
+
+
+.btn{
+   
+    width : 100px;
+    height : 60px;
+    padding : 5px;
+    text-align : center;
+    border-radius : 20px;
+    outline : none;
+    background-color : white;
+    border-color : red;
+    margin-bottom : 50px;
+    font-size : 25px;
+    color : white;
+    background-color : black;
+    
+    
+    
+    
+}
+
+
+
+
