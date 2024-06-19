@@ -7,7 +7,7 @@ var nishat = document.querySelector(".photo");
 
 function secondimage(){
     
-   nishat.src = ("akhi1.jpg");
+   nishat.src = ("https://i.ibb.co/s3V3KJH/akhi1.jpg");
   
 }
 
